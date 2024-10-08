@@ -1,3 +1,30 @@
+.barra-nav{
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(29, 85, 255);
+}
+
+.barra-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.barra-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.barra-nav ul li a:hover{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.393);
+}
+
 .titulo-pagina{
     text-align: center;
     font-style: italic;
